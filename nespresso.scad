@@ -3,20 +3,20 @@
 // General parameters
 thickness              =  2.0 ; // thickness of plastic
 roundedness            =  0.7 ; // roundedness of boxes between 0 and 1
-units                  =  1   ; // number of dispensers wide
+units                  =  4   ; // number of dispensers wide
 
 // Box parameters
-box_width              = 37.50; // width of box
-box_depth              = 37.50; // depth of box
+box_width              = 37.75; // width of box (37.5mm)
+box_depth              = 38.25; // depth of box (38.0mm)
 box_overhang           = 22.00; // overhang on opening
 
 // Base parameters
 base_width             = box_width * 1.25;
 base_depth             = box_depth * 2;
-base_thickness         = thickness * 4;
+base_thickness         = thickness * 3;
 base_separation        = base_width - (base_width - box_width)/1.4;
 
-use <MCAD/boxes.scad>;
+use </usr/share/openscad/libraries/MCAD/boxes.scad>;
 
 module nespresso_base() {
 
@@ -37,7 +37,7 @@ module nespresso_base() {
 
             // tray cut-out from flat base
             translate( v = [0, -thickness/3, base_thickness] ) {
-                roundedBox( [box_width, base_depth - thickness * 2, base_thickness], box_width * roundedness/10, true );
+                # roundedBox( [box_width, base_depth - thickness * 2, base_thickness], box_width * roundedness/10, true );
             }
 
             // make back of cut-out square
