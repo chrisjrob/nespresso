@@ -1,4 +1,7 @@
-// nespresso coffee pod dispenser
+// nespresso.scad
+// Nespresso Coffee Pod Dispenser
+// 
+// Copyright 2013 Christopher Roberts
 
 // General parameters
 thickness              =  2.0 ; // thickness of plastic
