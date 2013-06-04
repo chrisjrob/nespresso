@@ -1,16 +1,16 @@
 Nespresso
 =========
 
+Copyright (C) 2013 Christopher Roberts
+
+Licensed under the GPL v3 - see LICENCE.md
+
 Description
 -----------
-
 A Nespresso coffee pod dispenser, with the ability to print a single dispenser, or multiple dispensers joined as a single unit.
-
-Version 2 was a little too tight, version 3 should work better.
 
 Instructions
 ------------
-
 Tweak OpenSCAD files and generate STL, or use one of the existing STLs provided for 1, 2, 3 or 4 dispensers. Convert to gcodes and send to your 3D printer.
 
 Once printed, the coffee pod cardboard tubes should be opened in the usual way, cutting the lid off at the point where it folds. Insert tube into the dispenser.
