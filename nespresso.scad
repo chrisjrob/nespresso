@@ -20,11 +20,11 @@
 // General parameters
 thickness              =  2.0 ; // thickness of plastic
 roundedness            =  0.7 ; // roundedness of boxes between 0 and 1
-units                  =  4   ; // number of dispensers wide
+units                  =  1   ; // number of dispensers wide
 
 // Box parameters
-box_width              = 37.75; // width of box (37.5mm)
-box_depth              = 38.25; // depth of box (38.0mm)
+box_width              = 38.00; // width of box (37.5mm)
+box_depth              = 38.50; // depth of box (38.0mm)
 box_overhang           = 22.00; // overhang on opening
 
 // Base parameters
